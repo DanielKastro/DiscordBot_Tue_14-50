@@ -9,4 +9,6 @@ with open("bad_words.txt", "r", encoding="utf-8") as file:
             list.append(word)
 
 
+with open("cenz.json", "w", encoding="utf-8") as j:
+    json.dump(list, j)
 
